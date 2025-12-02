@@ -17,6 +17,9 @@
 > **Mestre:** [Jose Menezes](https://github.com/jcarlos78) - **Instrutores:** [Gilson Andrade](https://github.com/GilsonJunio) / [João Pedro Belo](https://github.com/silvajpedro)
 
 ---
+🎙️ <strong>Apresentação em Áudio do Laboratório WAF</strong>
+
+---
 ---
 
 # VaiNaWeb-FormacaoEmCybersecurity-DesafioFinalCTF
