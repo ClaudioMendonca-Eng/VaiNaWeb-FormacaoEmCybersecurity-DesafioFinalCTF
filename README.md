@@ -1,3 +1,24 @@
+## 🛠️ Introdução
+
+
+
+| Este relatório apresenta os resultados do Desafio Final CTF (Capture The Flag) da **[Formação em Cybersecurity VaiNaWeb - Módulo 3: Ethical Hacking](https://github.com/Kensei-CyberSec-Lab/formacao-cybersec/tree/main/modulo3-ethical-hacking)**. O objetivo do desafio foi realizar um teste de penetração completo na aplicação web TechCorp Solutions, identificando e explorando vulnerabilidades de segurança em um ambiente controlado de laboratório. Durante o assessment, foram capturadas 17 flags representando diferentes categorias de vulnerabilidades, incluindo falhas de controle de acesso, exposição de credenciais, injeção SQL, cross-site scripting (XSS) e configurações inseguras. Cada flag documentada demonstra uma vulnerabilidade real explorada com sucesso, evidenciando riscos críticos que comprometem a segurança da aplicação e dos dados corporativos.  |
+|:---:|
+| |
+| **<a href="/doc/Desafio_Final_CTF–Formacao_em_Ciberseguranca-v.1.0.pdf" target="_blank"><span style="color: blue;">Clique no book para baixar a versão detalhada!</span>** |
+| <a href="/doc/Desafio_Final_CTF–Formacao_em_Ciberseguranca-v.1.0.pdf" target="_blank"><img style="margin: 10px" height="700" width="800" src="/doc/img/ebook_animacao_600_390.gif" alt="Ebook"/></a> |
+|  <a href="https://kensei.seg.br/lab" target="_blank"><img style="margin: 10px" height="100" width="500" src="https://raw.githubusercontent.com/ClaudioMendonca-Eng/VaiNaWeb-FormacaoEmCybersecurity-Modulo02/main/doc/img/logos.png" alt="Logos Kensei e Vai na Web"/></a> |
+
+> [!NOTE]
+> **CURSO FORMAÇÃO CIBERSEC**
+> 
+> ***Autor:*** Claudio Mendonça - ***Data:*** 01/12/2025 - ***Versão:*** 1.0
+>
+> **Mestre:** [Jose Menezes](https://github.com/jcarlos78) - **Instrutores:** [Gilson Andrade](https://github.com/GilsonJunio) / [João Pedro Belo](https://github.com/silvajpedro)
+
+---
+---
+
 # VaiNaWeb-FormacaoEmCybersecurity-DesafioFinalCTF
 
 ## Relatório de Pentest - Desafio Final CTF
