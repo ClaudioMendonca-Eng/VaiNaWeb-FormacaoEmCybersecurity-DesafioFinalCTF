@@ -577,6 +577,8 @@ Esta vulnerabilidade representa violação de:
 
 A descoberta de views ocultas em bancos de dados (Database View Discovery) é uma técnica avançada de exploração que consiste em identificar objetos de banco de dados do tipo VIEW que contêm consultas pré-definidas armazenando ou expondo informações sensíveis. Views são consultas SQL armazenadas que funcionam como "tabelas virtuais", frequentemente criadas para simplificar queries complexas, controlar acesso a dados, ou ocultar informações sensíveis. No entanto, quando mal configuradas, views podem se tornar vetores de exposição críticos, revelando dados que deveriam estar protegidos, como credenciais administrativas, flags de CTF, informações de auditoria, ou registros filtrados de usuários privilegiados. Esta vulnerabilidade é particularmente insidiosa porque views muitas vezes passam despercebidas em auditorias de segurança convencionais que focam apenas em tabelas físicas. Atacantes com acesso ao banco de dados (via SQL injection, credenciais expostas, ou phpMyAdmin desprotegido) podem enumerar views através do schema information_schema.VIEWS e descobrir lógica de negócio sensível embutida nas definições das views. Esta falha combina elementos de A01:2021 (Broken Access Control - por expor dados que deveriam estar restritos), A03:2021 (Injection - quando explorado via SQL injection), e A04:2021 (Insecure Design - por criar views que expõem dados sensíveis). Em contextos de compliance, views contendo informações pessoais não protegidas adequadamente violam princípios de minimização de dados e purpose limitation do GDPR e LGPD.
 
+
+
 #### Conceito: SQLMap - Ferramenta de Exploração de SQL Injection
 
 SQLMap é a ferramenta de código aberto mais poderosa e amplamente utilizada para detecção e exploração automatizada de vulnerabilidades de SQL Injection. Desenvolvida em Python, esta ferramenta vai além da simples identificação de injeção SQL, oferecendo capacidades completas de post-exploitation como: enumeração automática de bancos de dados, tabelas, colunas e dados; identificação do tipo de DBMS (MySQL, PostgreSQL, Oracle, MSSQL, etc.); bypass de WAF (Web Application Firewall); exploração de técnicas avançadas (boolean-based blind, time-based blind, error-based, UNION query, stacked queries); execução de comandos no sistema operacional subjacente; leitura e escrita de arquivos no servidor; e até mesmo estabelecimento de túneis out-of-band. O SQLMap automatiza todo o processo de teste de injeção SQL através de centenas de payloads pré-configurados, economizando tempo precioso em pentests. Quando executado com parâmetros como `--forms` (detecta automaticamente formulários), `--batch` (executa sem interação do usuário), e `--dump-all` (extrai todos os dados de todos os bancos), o SQLMap realiza uma extração completa e sistemática de informações, incluindo schemas do information_schema que revelam views, triggers, stored procedures e outros objetos de banco. A ferramenta é indispensável na fase de exploitation de testes de penetração web, sendo capaz de identificar vulnerabilidades que testes manuais poderiam perder.
@@ -1131,6 +1133,9 @@ secret = client.get_secret_value(SecretId='prod/stripe/api_key')
 ---
 
 ### <a name="flag-9-sql-injection"></a>Flag 9: SQL Injection Master
+
+#### SQL Injection: Da Sondagem à Exfiltração
+<a href="#" target="_blank"><img style="margin: 10px" height="700" width="800" src="/doc/img/infor2.png" alt="SQL Injection: Da Sondagem à Exfiltração"/></a>
 
 #### Conceito: SQL Injection no Sistema de Login
 
