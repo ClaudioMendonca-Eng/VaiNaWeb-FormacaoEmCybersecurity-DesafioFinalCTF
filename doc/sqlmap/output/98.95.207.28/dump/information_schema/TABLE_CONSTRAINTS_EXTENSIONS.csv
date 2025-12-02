@@ -1,0 +1,14 @@
+TABLE_NAME,CONSTRAINT_NAME,ENGINE_ATTRIBUTE,CONSTRAINT_SCHEMA,CONSTRAINT_CATALOG,SECONDARY_ENGINE_ATTRIBUTE
+clients,PRIMARY,NULL,techcorp_db,def,NULL
+contacts,PRIMARY,NULL,techcorp_db,def,NULL
+global_status,PRIMARY,NULL,performance_schema,def,NULL
+global_variables,PRIMARY,NULL,performance_schema,def,NULL
+persisted_variables,PRIMARY,NULL,performance_schema,def,NULL
+processlist,PRIMARY,NULL,performance_schema,def,NULL
+secret_data,PRIMARY,NULL,techcorp_db,def,NULL
+session_account_connect_attrs,PRIMARY,NULL,performance_schema,def,NULL
+session_status,PRIMARY,NULL,performance_schema,def,NULL
+session_variables,PRIMARY,NULL,performance_schema,def,NULL
+users,PRIMARY,NULL,techcorp_db,def,NULL
+users,username,NULL,techcorp_db,def,NULL
+

@@ -1,0 +1,14 @@
+ENFORCED,TABLE_SCHEMA,TABLE_NAME,CONSTRAINT_TYPE,CONSTRAINT_NAME,CONSTRAINT_SCHEMA,CONSTRAINT_CATALOG
+YES,performance_schema,global_status,PRIMARY KEY,PRIMARY,performance_schema,def
+YES,performance_schema,global_variables,PRIMARY KEY,PRIMARY,performance_schema,def
+YES,performance_schema,persisted_variables,PRIMARY KEY,PRIMARY,performance_schema,def
+YES,performance_schema,processlist,PRIMARY KEY,PRIMARY,performance_schema,def
+YES,performance_schema,session_account_connect_attrs,PRIMARY KEY,PRIMARY,performance_schema,def
+YES,performance_schema,session_status,PRIMARY KEY,PRIMARY,performance_schema,def
+YES,performance_schema,session_variables,PRIMARY KEY,PRIMARY,performance_schema,def
+YES,techcorp_db,clients,PRIMARY KEY,PRIMARY,techcorp_db,def
+YES,techcorp_db,contacts,PRIMARY KEY,PRIMARY,techcorp_db,def
+YES,techcorp_db,secret_data,PRIMARY KEY,PRIMARY,techcorp_db,def
+YES,techcorp_db,users,PRIMARY KEY,PRIMARY,techcorp_db,def
+YES,techcorp_db,users,UNIQUE,username,techcorp_db,def
+

@@ -1,0 +1,10 @@
+FLAG,NAME,PATH,SPACE,SPACE_TYPE
+18432,innodb_system,ibdata1,0,System
+0,innodb_undo_001,./undo_001,4294967279,Single
+0,innodb_undo_002,./undo_002,4294967278,Single
+16417,sys/sys_config,./sys/sys_config.ibd,1,Single
+16417,techcorp_db/users,./techcorp_db/users.ibd,2,Single
+16417,techcorp_db/clients,./techcorp_db/clients.ibd,3,Single
+16417,techcorp_db/contacts,./techcorp_db/contacts.ibd,4,Single
+16417,techcorp_db/secret_data,./techcorp_db/secret_data.ibd,5,Single
+

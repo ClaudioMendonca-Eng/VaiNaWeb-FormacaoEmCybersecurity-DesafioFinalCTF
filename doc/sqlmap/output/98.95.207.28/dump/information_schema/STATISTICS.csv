@@ -1,0 +1,15 @@
+PACKED,NULLABLE,SUB_PART,COMMENT,EXPRESSION,INDEX_NAME,INDEX_TYPE,IS_VISIBLE,NON_UNIQUE,COLLATION,INDEX_SCHEMA,SEQ_IN_INDEX,TABLE_SCHEMA,TABLE_NAME,INDEX_COMMENT,TABLE_CATALOG,CARDINALITY,COLUMN_NAME
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,HASH,YES,0,NULL,performance_schema,1,performance_schema,processlist,<blank>,def,NULL,ID
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,HASH,YES,0,NULL,performance_schema,1,performance_schema,session_account_connect_attrs,<blank>,def,NULL,PROCESSLIST_ID
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,HASH,YES,0,NULL,performance_schema,2,performance_schema,session_account_connect_attrs,<blank>,def,NULL,ATTR_NAME
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,HASH,YES,0,NULL,performance_schema,1,performance_schema,global_status,<blank>,def,NULL,VARIABLE_NAME
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,HASH,YES,0,NULL,performance_schema,1,performance_schema,session_status,<blank>,def,NULL,VARIABLE_NAME
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,HASH,YES,0,NULL,performance_schema,1,performance_schema,global_variables,<blank>,def,NULL,VARIABLE_NAME
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,HASH,YES,0,NULL,performance_schema,1,performance_schema,session_variables,<blank>,def,NULL,VARIABLE_NAME
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,HASH,YES,0,NULL,performance_schema,1,performance_schema,persisted_variables,<blank>,def,NULL,VARIABLE_NAME
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,BTREE,YES,0,A,techcorp_db,1,techcorp_db,users,<blank>,def,17,id
+NULL,<blank>,NULL,<blank>,NULL,username,BTREE,YES,0,A,techcorp_db,1,techcorp_db,users,<blank>,def,17,username
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,BTREE,YES,0,A,techcorp_db,1,techcorp_db,clients,<blank>,def,1,id
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,BTREE,YES,0,A,techcorp_db,1,techcorp_db,contacts,<blank>,def,992,id
+NULL,<blank>,NULL,<blank>,NULL,PRIMARY,BTREE,YES,0,A,techcorp_db,1,techcorp_db,secret_data,<blank>,def,0,id
+

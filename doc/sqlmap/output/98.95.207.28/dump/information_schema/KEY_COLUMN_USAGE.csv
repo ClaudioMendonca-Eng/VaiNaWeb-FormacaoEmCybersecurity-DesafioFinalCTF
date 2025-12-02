@@ -1,0 +1,7 @@
+TABLE_SCHEMA,TABLE_NAME,TABLE_CATALOG,COLUMN_NAME,ORDINAL_POSITION,CONSTRAINT_NAME,CONSTRAINT_SCHEMA,CONSTRAINT_CATALOG,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME,REFERENCED_TABLE_SCHEMA,POSITION_IN_UNIQUE_CONSTRAINT
+techcorp_db,clients,def,id,1,PRIMARY,techcorp_db,def,NULL,NULL,NULL,NULL
+techcorp_db,contacts,def,id,1,PRIMARY,techcorp_db,def,NULL,NULL,NULL,NULL
+techcorp_db,secret_data,def,id,1,PRIMARY,techcorp_db,def,NULL,NULL,NULL,NULL
+techcorp_db,users,def,id,1,PRIMARY,techcorp_db,def,NULL,NULL,NULL,NULL
+techcorp_db,users,def,username,1,username,techcorp_db,def,NULL,NULL,NULL,NULL
+

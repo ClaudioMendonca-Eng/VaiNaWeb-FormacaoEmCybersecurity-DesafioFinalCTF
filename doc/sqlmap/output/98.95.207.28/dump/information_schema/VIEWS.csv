@@ -1,0 +1,3 @@
+DEFINER,CHECK_OPTION,IS_UPDATABLE,TABLE_SCHEMA,TABLE_NAME,SECURITY_TYPE,TABLE_CATALOG,VIEW_DEFINITION,CHARACTER_SET_CLIENT,COLLATION_CONNECTION
+root@localhost,NONE,YES,techcorp_db,sensitive_info,DEFINER,def,"select `u`.`username` AS `username`,`u`.`password` AS `password`,`u`.`role` AS `role`,'FLAG{v13w_d1sc0v3ry_4dv4nc3d}' AS `hidden_flag` from `techcorp_db`.`users` `u` where (`u`.`role` = 'admin')",latin1,latin1_swedish_ci
+

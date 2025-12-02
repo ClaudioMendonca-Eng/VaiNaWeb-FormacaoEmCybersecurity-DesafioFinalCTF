@@ -1,0 +1,13 @@
+XA,SUPPORT,ENGINE,COMMENT,SAVEPOINTS,TRANSACTIONS
+NULL,NO,ndbcluster,"Clustered, fault-tolerant tables",NULL,NULL
+NULL,NO,ndbinfo,MySQL Cluster system information storage engine,NULL,NULL
+NULL,NO,FEDERATED,Federated MySQL storage engine,NULL,NULL
+NO,YES,CSV,CSV storage engine,NO,NO
+NO,YES,PERFORMANCE_SCHEMA,Performance Schema,NO,NO
+NO,YES,MyISAM,MyISAM storage engine,NO,NO
+NO,YES,MRG_MYISAM,Collection of identical MyISAM tables,NO,NO
+NO,YES,BLACKHOLE,/dev/null storage engine (anything you write to it disappears),NO,NO
+NO,YES,CSV,CSV storage engine,NO,NO
+NO,YES,ARCHIVE,Archive storage engine,NO,NO
+YES,DEFAULT,InnoDB,"Supports transactions, row-level locking, and foreign keys",YES,YES
+

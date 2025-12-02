@@ -1,0 +1,5 @@
+SQL_PATH,SCHEMA_NAME,CATALOG_NAME,DEFAULT_ENCRYPTION,DEFAULT_COLLATION_NAME,DEFAULT_CHARACTER_SET_NAME
+NULL,information_schema,def,NO,utf8mb3_general_ci,utf8mb3
+NULL,performance_schema,def,NO,utf8mb4_0900_ai_ci,utf8mb4
+NULL,techcorp_db,def,NO,utf8mb4_0900_ai_ci,utf8mb4
+

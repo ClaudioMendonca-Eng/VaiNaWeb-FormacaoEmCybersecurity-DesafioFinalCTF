@@ -1,0 +1,20 @@
+GRANTEE,IS_GRANTABLE,TABLE_SCHEMA,TABLE_CATALOG,PRIVILEGE_TYPE
+'techcorp_user'@'%',NO,techcorp\\_db,def,SELECT
+'techcorp_user'@'%',NO,techcorp\\_db,def,INSERT
+'techcorp_user'@'%',NO,techcorp\\_db,def,UPDATE
+'techcorp_user'@'%',NO,techcorp\\_db,def,DELETE
+'techcorp_user'@'%',NO,techcorp\\_db,def,CREATE
+'techcorp_user'@'%',NO,techcorp\\_db,def,DROP
+'techcorp_user'@'%',NO,techcorp\\_db,def,REFERENCES
+'techcorp_user'@'%',NO,techcorp\\_db,def,INDEX
+'techcorp_user'@'%',NO,techcorp\\_db,def,ALTER
+'techcorp_user'@'%',NO,techcorp\\_db,def,CREATE TEMPORARY TABLES
+'techcorp_user'@'%',NO,techcorp\\_db,def,LOCK TABLES
+'techcorp_user'@'%',NO,techcorp\\_db,def,EXECUTE
+'techcorp_user'@'%',NO,techcorp\\_db,def,CREATE VIEW
+'techcorp_user'@'%',NO,techcorp\\_db,def,SHOW VIEW
+'techcorp_user'@'%',NO,techcorp\\_db,def,CREATE ROUTINE
+'techcorp_user'@'%',NO,techcorp\\_db,def,ALTER ROUTINE
+'techcorp_user'@'%',NO,techcorp\\_db,def,EVENT
+'techcorp_user'@'%',NO,techcorp\\_db,def,TRIGGER
+
