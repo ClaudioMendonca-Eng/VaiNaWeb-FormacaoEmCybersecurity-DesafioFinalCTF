@@ -317,6 +317,11 @@ Com a confirmação de acesso anônimo, foi estabelecida uma conexão direta ao 
   <img src="/doc/img/Figura 7 - Screenshot completo do output do Nmap mostrando todas as portas e serviços descobertos.png" alt="Screenshot completo do output do Nmap mostrando todas as portas e serviços descobertos" width="750"/>
 </div>
 
+- Screenshot completo do output do Nmap mostrando todas as portas e serviços descobertos
+
+<div align="center">
+  <img src="/doc/img/Figura 8 - Screenshot do comando Nmap com script ftp-anon confirmando acesso anônimo permitido.png" alt="Screenshot do comando Nmap com script ftp-anon confirmando acesso anônimo permitido" width="750"/>
+</div>
 
 - Screenshot da conexão FTP bem-sucedida mostrando "230 Login successful"
 - Screenshot da listagem de diretórios (ls -la) mostrando todos os arquivos e pastas
