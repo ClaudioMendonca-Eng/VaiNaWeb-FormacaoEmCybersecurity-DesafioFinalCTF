@@ -109,7 +109,7 @@ A infraestrutura apresenta stack LAMP (Linux Ubuntu 20.04.6 LTS, Apache 2.4.54/2
 
 
 <div align="center">
-  <img src="/doc/img/infor3.png" alt="17 flags capturadas representando diferentes vetores de ataque" width="750"/>
+  <img src="/doc/img/infor4.png" alt="17 flags capturadas representando diferentes vetores de ataque" width="750"/>
 </div>
 
 A análise SWOT complementar fornece visão estratégica identificando 6 forças organizacionais, 10 fraquezas críticas, 8 oportunidades de melhoria e 10 ameaças externas, culminando em roadmap de implementação estruturado em três fases (0-30, 30-90, 90-180 dias) para transformação da postura de segurança de reativa para proativa.
