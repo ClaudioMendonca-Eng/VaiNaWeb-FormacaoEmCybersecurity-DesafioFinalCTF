@@ -29,6 +29,38 @@ https://github.com/user-attachments/assets/9f1964e7-d997-4cbd-b3f4-7c635bf52292
 
 ---
 
+## 🏆 Ranking CTF - 1º Lugar
+
+Durante o **Desafio Final CTF da Formação em Cybersecurity VaiNaWeb**, foi implementado um **sistema de ranking competitivo** onde os participantes pontuavam pela captura de flags em tempo real. O sistema KENSEI CyberSec Lab rastreava automaticamente cada flag encontrada, atribuindo pontos e atualizando o ranking instantaneamente, criando um ambiente de competição saudável que simulava cenários reais de CTF profissionais.
+
+**Resultado Final:**
+
+<div align="center">
+  <img src="/doc/img/ranking.png" alt="Ranking CTF - Sistema KENSEI" width="750"/>
+</div>
+
+### 🥇 Conquista: 1º Lugar no Ranking
+
+**Cláudio Mendonça** conquistou o **1º lugar** no ranking final do desafio, capturando todas as **16 flags disponíveis** e alcançando **390 pontos**, o mesmo obtido pelos 7 primeiros colocados que também completaram o desafio. Este resultado demonstra:
+
+**Competências Técnicas Validadas:**
+- ✅ Domínio completo de técnicas de reconnaissance (Nmap, Nikto, Gobuster)
+- ✅ Exploração eficiente de SQL Injection e XSS
+- ✅ Habilidade em privilege escalation (user → root)
+- ✅ Análise forense de logs e histórico de comandos
+- ✅ Descoberta de credenciais em múltiplos vetores (FTP, Git, arquivos de configuração)
+
+**Estatísticas do Desafio:**
+- **Alunos cadastrados:** 44 participantes
+- **Flags encontradas (total):** 352 (média de 8 flags por participante)
+- **Flags disponíveis:** 16 no sistema de ranking
+- **Pontuação máxima:** 390 pontos (alcançada por 7 participantes)
+- **Taxa de conclusão completa:** ~16% (7/44 alunos completaram todas as flags)
+
+O sistema de ranking KENSEI demonstrou ser uma excelente ferramenta pedagógica, incentivando os alunos a aplicarem metodologias estruturadas de pentest e documentarem suas descobertas de forma sistemática, preparando-os para desafios reais de CTF e certificações como OSCP, CEH e eJPT.
+
+---
+
 ## 📖 Sumário
 <a id="topo"></a>
 
@@ -6061,6 +6093,9 @@ No entanto, a infraestrutura LAMP estabelecida e a consciência documentada sobr
 </p>
 
 ---
+
+## Ranking Geral: **1º Lugar**
+
 
 ## 📚 <a name="referencias-bibliograficas"></a>**REFERÊNCIAS BIBLIOGRÁFICAS**
 
