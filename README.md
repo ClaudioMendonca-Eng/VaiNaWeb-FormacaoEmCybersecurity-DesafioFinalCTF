@@ -207,6 +207,10 @@ Para capturar a flag oculta no código fonte HTML do ambiente alvo (http://98.95
   <img src="/doc/img/Figura 1 - Website da empresa TechCorp Solutions.png" alt="Screenshot do código fonte HTML com a flag" width="750"/>
 </div>
 
+<div align="center">
+  <img src="/doc/img/Figura 2 - Página e utilizando a funcionalidade Inspecionar elemento.png" alt="Screenshot da página utilizando a funcionalidade Inspecionar elemento" width="750"/>
+</div>
+
 - Screenshot do código fonte HTML mostrando o comentário com a flag
 - Output do comando curl com grep destacando a flag encontrada
 
@@ -246,6 +250,11 @@ Após a descoberta do arquivo `robots.txt` pelo Nikto, o próximo passo foi exam
 Para confirmar e documentar a captura da flag de forma mais eficiente, foi executado o comando `curl "http://98.95.207.28/robots.txt" | grep FLAG`, combinando a requisição HTTP com filtragem automática. Esta abordagem demonstra uma técnica profissional em pentest onde comandos são encadeados para extração precisa de informações relevantes. O comando retornou estatísticas de transferência (169 bytes recebidos em 631 ms) e isolou a linha contendo a flag, facilitando a documentação e evitando informações desnecessárias. Esta técnica de filtragem é especialmente útil quando se trabalha com múltiplos alvos ou arquivos grandes, permitindo rápida identificação de padrões específicos.
 
 **Evidências do Passo 3:**
+
+<div align="center">
+  <img src="/doc/img/Figura 4 - Utilizando a ferramenta Nikto.png" alt="Screenshot do comando curl com grep mostrando apenas a flag extraída" width="750"/>
+</div>
+
 - Screenshot do comando curl com grep mostrando apenas a flag extraída
 - Métricas de tempo e tamanho da resposta HTTP
 
