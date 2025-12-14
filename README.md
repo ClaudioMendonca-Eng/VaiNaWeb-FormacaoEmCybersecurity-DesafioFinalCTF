@@ -255,6 +255,11 @@ Para confirmar e documentar a captura da flag de forma mais eficiente, foi execu
   <img src="/doc/img/Figura 4 - Utilizando a ferramenta Nikto.png" alt="Screenshot do comando curl com grep mostrando apenas a flag extraída" width="750"/>
 </div>
 
+
+<div align="center">
+  <img src="/doc/img/Figura 5 - Screenshot do comando curl exibindo o conteúdo completo do robots.txt .png" alt="Screenshot do comando curl exibindo o conteúdo completo do robots.txt" width="750"/>
+</div>
+
 - Screenshot do comando curl com grep mostrando apenas a flag extraída
 - Métricas de tempo e tamanho da resposta HTTP
 
