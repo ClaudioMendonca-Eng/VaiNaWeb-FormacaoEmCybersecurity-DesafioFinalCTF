@@ -312,6 +312,12 @@ Após identificar o serviço FTP na porta 21, o próximo passo foi verificar esp
 Com a confirmação de acesso anônimo, foi estabelecida uma conexão direta ao servidor FTP usando o comando `ftp 98.95.207.28`. Ao ser solicitado o nome de usuário, foi utilizado "anonymous", e quando solicitada a senha, foi simplesmente pressionado Enter (senha vazia), resultando na mensagem "230 Login successful". Uma vez conectado, foi executado o comando `ls -la` no prompt do FTP para listar todos os arquivos e diretórios, incluindo ocultos. A listagem revelou uma estrutura preocupante: um arquivo `Dockerfile` (1110 bytes), um diretório `confidential`, um diretório `ftp`, um diretório `public`, um arquivo de configuração `users.conf` (135 bytes), e um arquivo `welcome.txt` (329 bytes). Todos os arquivos tinham permissões de leitura e execução (rwxr-xr-x), indicando má configuração de segurança. A presença de arquivos como `users.conf` e o diretório `confidential` são indicadores claros de exposição de informações sensíveis.
 
 **Evidências do Passo 3:**
+
+<div align="center">
+  <img src="/doc/img/Figura 7 - Screenshot completo do output do Nmap mostrando todas as portas e serviços descobertos.png" alt="Screenshot completo do output do Nmap mostrando todas as portas e serviços descobertos" width="750"/>
+</div>
+
+
 - Screenshot da conexão FTP bem-sucedida mostrando "230 Login successful"
 - Screenshot da listagem de diretórios (ls -la) mostrando todos os arquivos e pastas
 
