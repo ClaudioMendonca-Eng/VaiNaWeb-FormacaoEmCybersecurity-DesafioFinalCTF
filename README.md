@@ -106,6 +106,12 @@ A infraestrutura apresenta stack LAMP (Linux Ubuntu 20.04.6 LTS, Apache 2.4.54/2
 - ✅ Acesso não autorizado a painéis administrativos
 - ✅ Escalonamento de privilégios de usuário comum para root
 
+
+
+<div align="center">
+  <img src="/doc/img/infor3.png" alt="17 flags capturadas representando diferentes vetores de ataque" width="750"/>
+</div>
+
 A análise SWOT complementar fornece visão estratégica identificando 6 forças organizacionais, 10 fraquezas críticas, 8 oportunidades de melhoria e 10 ameaças externas, culminando em roadmap de implementação estruturado em três fases (0-30, 30-90, 90-180 dias) para transformação da postura de segurança de reativa para proativa.
 
 <p align="right">
@@ -196,6 +202,11 @@ Para capturar a flag oculta no código fonte HTML do ambiente alvo (http://98.95
 **Data da Captura:** 30 de novembro de 2025
 
 **Evidências:**
+
+<div align="center">
+  <img src="/doc/img/Figura 1 - Website da empresa TechCorp Solutions.png" alt="Screenshot do código fonte HTML com a flag" width="750"/>
+</div>
+
 - Screenshot do código fonte HTML mostrando o comentário com a flag
 - Output do comando curl com grep destacando a flag encontrada
 
@@ -6093,8 +6104,6 @@ No entanto, a infraestrutura LAMP estabelecida e a consciência documentada sobr
 </p>
 
 ---
-
-## Ranking Geral: **1º Lugar**
 
 
 ## 📚 <a name="referencias-bibliograficas"></a>**REFERÊNCIAS BIBLIOGRÁFICAS**
